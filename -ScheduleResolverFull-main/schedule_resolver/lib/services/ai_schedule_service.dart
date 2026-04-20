@@ -10,7 +10,7 @@ class AiScheduleService extends ChangeNotifier {
   String? _errorMessage;
 
 
-  final String _apiKey = 'AIzaSyACA9o3VTFE24FLvsbb7YRfCgAp8TkTRkA';
+  final String _apiKey = '';
 
   ScheduleAnalysis? get currentAnalysis => _currentAnalysis;
   bool get isLoading => _isLoading;
